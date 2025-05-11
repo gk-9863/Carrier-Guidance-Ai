@@ -1,97 +1,70 @@
-# ASPIRE 360
+# Getting Started with Create React App
 
-AI Career Guidance and Knowledge Testing Web Application.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![image](https://github.com/user-attachments/assets/17bbe02d-8112-4a8d-bb68-c670fcc577a2)
+## Available Scripts
 
+In the project directory, you can run:
 
-## Table of Contents
+### `npm start`
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Demo](#demo)
-- [Getting Started](#getting-started)
-  - [Frontend](#frontend)
-  - [Backend](#backend)
-- [Usage](#usage)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Introduction
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-The AI Career Guidance and Knowledge Testing Web Application is a comprehensive platform that combines a chat interface and a dashboard to assist users in testing their knowledge and receiving career guidance. Leveraging state-of-the-art AI technology, the application provides an intuitive and interactive experience for users to explore career options, test their knowledge, and receive personalized guidance.
+### `npm test`
 
-## Features
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- Chat Interface: The chat interface allows users to interact with the AI to receive personalized career guidance and advice.
-- Knowledge Testing: Users can take quizzes and tests to assess their knowledge in different subjects and topics.
-- Career Guidance: Based on the user's interests, skills, and test results, the AI provides personalized career guidance and recommendations.
-- Dashboard: The dashboard provides a user-friendly chart interface that include knowledge testing summary.
+### `npm run build`
 
-## Technologies
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- MERN Stack
-- Gemini API
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Demo
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-The web app is live on : https://self-assistant-ai-web-app.vercel.app/
+### `npm run eject`
 
-## Getting Started
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-1. Clone the project :
-   
-    ```bash
-   git clone https://github.com/tkdeshan/Self_Assistant_AI_Web_App/
-    
-3. Navigate to the project directory:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-    ```bash
-   cd Self_Assistant_AI_Web_App
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### Frontend
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-1. Navigate to the frontend directory:
+## Learn More
 
-   ```bash
-   cd frontend
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-2. Install the required dependencies:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-   ```bash
-   npm install
+### Code Splitting
 
-3. Start the React development server:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-    ```bash
-   npm start
+### Analyzing the Bundle Size
 
-4. Now, the app is running by getting data on my hosted server. Replace `http://localhost:5000` in the BaseURL variable in .env file to connect the frontend to your local server.
-   
-### Backend
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-1. Navigate to the backend directory:
+### Making a Progressive Web App
 
-   ```bash
-   cd backend
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-2. Install the required dependencies:
+### Advanced Configuration
 
-   ```bash
-   npm install
-   
-3. Replace your data in .env file.
- 
-4. Start the backend server:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-    ```bash
-   npm start
+### Deployment
 
-## Usage
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-1. Register or log in to the application.
-2. In the chat interface, interact with the AI to receive personalized career guidance and advice.
-3. Navigate through the dashboard to access knowledge testing summary.
+### `npm run build` fails to minify
 
-## Note
-
-- Get Gemini API Key go to Google Ai Studio - https://aistudio.google.com/app/apikey
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
